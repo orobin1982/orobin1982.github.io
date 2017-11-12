@@ -1,0 +1,99 @@
+
+/* ensemble de règles CSS */
+
+/* un exemple: 
+html est un sélecteur, 
+font-size est une propriété, 
+15px est une valeur, 
+font-size: 15px; est une déclaration cad une règle */
+
+
+
+html {
+	font-family: 'Raleway', sans-serif;	/*  https://fonts.google.com/specimen/Raleway?selection.family=Raleway  */
+    font-size: 15px;
+    background-color: #0b3c5d;
+    margin: 20px auto;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #dfdce3;
+	padding: 20px;
+	/*border: 5px solid black;*/
+	border-radius: 10px;
+}
+
+nav {
+	/*text-align: center;*/
+}
+
+h1 {
+	font-family: 'Josefin Slab', serif;
+	color: #f7b733;
+	text-shadow: 1px 1px 1px black;
+}
+
+#titredusite {
+	font-size: 2.0em;
+	/*font-weight: 900;*/
+	text-align: center;
+}
+
+em{
+	color: #fc4a1a;
+	/*font-style: normal;*/
+}
+
+p {
+	margin: 30px;
+	text-align: justify;
+}
+
+.illustration,video {
+	display: block;
+	margin: 5px 0px 5px auto;
+	width: 300px;
+}
+
+.test {
+	/*color: b9b0b0;*/
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+#developpement {
+/*	color: #d9ecd0;
+	background-color: #0b3c5d;*/
+}
+
+table, td {
+  	border: 1px solid black;
+  	text-align: center;
+}
+
+th {
+	background-color: #d9b310;
+	text-align: center;
+}
+
+#citation{
+	background-image: url("../images/mountain.jpg");
+	background-size: 100%;
+	height: 450px;
+	width: 90%;
+	padding: 20px;
+	margin: 0px auto;
+	color: white;
+	text-align: right;
+	font-size: 1.4em;
+
+	/*content: rgb(0, 0, 0);*/
+	/*opacity: 0.6;*/
+}
+
+#image-about {
+	/*width: 100%;*/
+}

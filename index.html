@@ -1,0 +1,171 @@
+<!DOCTYPE html> <!-- le premier commentaire de mon premier site web -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon premier site web</title> <!-- ceci est un titre -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,900|Raleway:400,700">   <!--400=normal 700=bold -->
+  	<link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  
+  <body>
+    <div id="navigation">
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./about.html">A propos</a>
+        </nav>
+
+        <h1 id="titredusite">UN SITE INTERNET POUR FAIRE DES ESSAIS</h1>
+
+        <nav>
+            <ol>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#titre2">Le titre 2</a></li>
+              <li><a href="#developpement">Développement</a></li>
+              <li><a href="#images">Images</a></li>
+              <li><a href="#videos">Vidéos</a></li>
+              <li><a href="#tableau">Tableau</a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- ***************************************************  1)  INTRODUCTION  ************************************************** -->
+    <hr />    
+    <div id="introduction">
+    	<h1>Introduction</h1>
+    	<p>Bonjour ! Ceci est mon premier site internet. <strong>Merci</strong> d'être indulgent si vous voyez des erreurs. Je sais qu'il y en a beaucoup.</p>
+
+        <p class="test">C'est une sorte de <em>brouillon</em> donc l'objectif dans un premier temps n'est pas de proposer un site parfait. Le but pour l'instant est de tester différentes balises pour voir ce qu'il se passe. Ce qui va suivre n'a aucun ordre particulier. </p>
+    </div>
+
+    <!-- ***************************************************  2)  LE TITRE 2  ************************************************** -->
+    <hr />    
+    <div id="titre2">
+        <h1>Le titre 2</h1>
+
+        <p>Un <em>éditeur</em> de texte, pour y écrire du <strong>code</strong>: </p>
+        <ul>  <!-- liste non-ordonnée -->
+        	<li>Sublime Text : <a href="https://www.sublimetext.com" target="_blank">https://www.sublimetext.com</a></li>
+        	<li>Brackets : <a href="http://brackets.io" target="_blank">http://brackets.io</a></li>
+        	<li>Atom : <a href="https://atom.io" target="_blank">https://atom.io</a></li>
+        	<li>Visual Studio Code : <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com</a></li>
+        </ul>
+        
+        <p>Un éditeur graphique: </p>
+        <ol>  <!-- liste ordonnée -->
+        	<li>GIMP : <a href="https://www.gimp.org" target="_blank">https://www.gimp.org</a></li>
+        	<li>Paint.NET : <a href="https://www.getpaint.net" target="_blank">https://www.getpaint.net</a></li>
+        	<li>Krita : <a href="https://krita.org/fr" target="_blank">https://krita.org/fr</a></li>
+        	<li>PhotoFiltre : <a href="http://photofiltre.free.fr" target="_blank">http://photofiltre.free.fr</a> et PhotoFiltre Studio : <a href="http://www.photofiltre-studio.com" target="_blank">http://www.photofiltre-studio.com</a></li>
+        </ol>
+    </div>
+
+    <!-- ***************************************************  3)  DEVELOPPEMENT  ************************************************** -->
+    <hr />
+    <div id="developpement">
+    	<h1>Développement</h1>
+    	
+        <h3>langages</h3>
+    	<p>HTML, CSS, Javascript, Java, Php, XML, SQL, Android, ...</p>
+
+    	<h3>frameworks</h3>
+        <p>blablabla</p>
+
+    	<h3>applications</h3>
+        <p>blablabla</p>
+
+        <h3>méthodes</h3>
+        <p>blablabla</p>
+
+        <!-- un lien -->
+        <p>Ceci est un lien : </p>
+        <a href="https://www.mozilla.org/fr/about/manifesto/">Manifeste Mozilla</a>
+        <br />
+    </div>
+
+    <!-- ***************************************************  4)  IMAGES  ************************************************** -->
+    <hr />
+    <div id="images">
+        <h1>Images</h1>
+        <!-- image d'une chouette -->
+        <img class="illustration" src="images/chouette.jpg" alt="Mon image de test est une chouette"><br />
+
+
+        <!-- image cliquable -->
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">
+          <img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" alt="MDN logo" />
+        </a>
+        <br />
+        
+    </div>
+
+    <!-- ***************************************************  5)  VIDEOS  ************************************************** -->
+    <hr />    
+    <div id="videos">
+        <h1>Vidéos</h1>
+        <!-- Ravi Shankar - Shanti Mantra - Hubble.mp4 -->
+        <p>un exemple de <a href="https://www.youtube.com/watch?v=N8ocTblNQH4" target="_blank">vidéo locale :</a></p>
+        <video src="videos/Ravi Shankar - Shanti Mantra - Hubble.mp4" height="240" controls>
+          Video not supported
+        </video>
+
+        <!-- Accordéon diato, "bonsoir le Maître de la maison" -->
+        <p>un exemple de <a href="https://www.youtube.com/watch?v=4Ycr2GcRTFU" target="_blank">vidéo youtube :</a></p>
+
+        <!-- Pour l'instant, je ne connais pas encore tous les éléments de la ligne de code ci-dessous. Je copie juste le code à insérer donné par youtube, en ajustant seulement les paramètres width et height: -->
+        <iframe width="320" height="240" src="https://www.youtube-nocookie.com/embed/4Ycr2GcRTFU?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- ***************************************************  6)  TABLEAU  ************************************************** -->
+    <hr />
+    <div id="tableau">
+        <h1>Tableau</h1>
+        <table>
+            <thead>
+                <tr>     <!-- table row -->
+                    <th></th>   <!-- table heading -->
+                    <th>Lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>A</th>
+                    <td>oui</td>     <!-- table data -->
+                    <td colspan="2">non</td>
+                    <td rowspan="2">non</td>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <td>oui</td>
+                    <td>non</td>
+                    <td>oui</td>
+                </tr>
+                <tr>
+                    <th>C</th>
+                    <td colspan="3">oui</td>
+                    <td>oui</td>
+                </tr>
+                <tr>
+                    <th>D</th>
+                    <td colspan="2">oui</td>
+                    <td>non</td>
+                    <td rowspan="2">non</td>
+                </tr>
+                <tr>
+                    <th>E</th>
+                    <td colspan="2">oui</td>
+                    <td>non</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ***************************************************  7)  ...  ************************************************** -->    
+    <hr />
+    <a href="./index.html">Accueil</a>
+    <a href="./about.html">A propos</a>
+
+  </body>
+</html>
