@@ -51,10 +51,16 @@ p {
 	text-align: justify;
 }
 
-.illustration,video {
+.illustration {
 	display: block;
 	margin: 5px 0px 5px auto;
 	width: 300px;
+}
+
+#gridvideos {
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr); /* 2 cols repeated, equal width */
+  	grid-gap: 10px;
 }
 
 .test {
