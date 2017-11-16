@@ -63,6 +63,36 @@ p {
   	grid-gap: 10px;
 }
 
+#vid1 {
+  grid-column: 1;
+  grid-row: 1;
+  border: solid 2px blue;
+}
+#vid2 { 
+  grid-column: 2;
+  grid-row: 1;
+  border: solid 2px green;
+}
+#vid3 {
+  grid-column: 1;
+  grid-row: 2;
+  border: solid 2px brown;
+}
+#vid4 {
+  grid-column: 2;
+  grid-row: 2;
+  border: solid 2px violet;
+}
+#vid5 {
+  grid-column: 1;
+  grid-row: 3;
+  border: solid 2px orange;
+}
+
+
+
+
+
 .test {
 	/*color: b9b0b0;*/
 	font-size: 1.1em;
