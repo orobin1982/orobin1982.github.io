@@ -29,6 +29,16 @@ nav {
 	/*text-align: center;*/
 }
 
+
+.logo { 
+	background-image: url("../android-chrome-512x512.png");
+	width:500px;
+	height:500px;
+	position:top center;
+} 
+
+
+
 h1 {/*
 	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;*/
 	color: #fa5000; /*#f7b733;*/
